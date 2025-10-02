@@ -6,20 +6,20 @@ complimentary scripts that make gifs from arduino byte array animations, cuz I w
 
 ## Scripts Overview
 
-### 1. Frame Extractor (extract_frames.py)
+### 1. Frame Extractor (extractframes.py)
 
 Extracts frame data from Arduino C++ code and creates JSON format for the GIF converter.
 
 Usage:
 
 * Basic extraction:
- `python extract_frames.py animation.ino -o frames.json`
+ `python extractframes.py animation.ino -o frames.json`
 
 * With custom frame delay:
- `python extract_frames.py animation.ino -o frames.json --delay 50`
+ `python extractframes.py animation.ino -o frames.json --delay 50`
 
 * Simple array format (no metadata):
- `python extract_frames.py animation.ino -o frames.json --format simple`
+ `python extractframes.py animation.ino -o frames.json --format simple`
 
 * Input: Arduino .ino file with frame arrays
 
